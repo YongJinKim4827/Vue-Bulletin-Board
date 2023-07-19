@@ -1,0 +1,12 @@
+/* javascript 프로젝트의 Root임을 나타냄*/
+/* root 파일과 javascript 언어 서비스에서 제공하는 기능에 대한 옵션을 지정*/
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@/*" : ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
