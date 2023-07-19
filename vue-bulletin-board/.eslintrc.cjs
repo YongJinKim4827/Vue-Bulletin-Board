@@ -31,5 +31,6 @@ module.exports = {
 				endOfLine: 'auto', // 한줄 추가
 			},
 		],
+		'vue/multi-word-component-names': 'off',
 	},
 };

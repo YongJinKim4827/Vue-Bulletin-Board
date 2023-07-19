@@ -1,7 +1,8 @@
 <template>
 	<main>
 		<div class="container py-4">
-			<h2>Hello Vue3</h2>
+			<!-- Vue Route에서 제공하는 내장 컴포넌트 -->
+			<RouterView></RouterView>
 		</div>
 	</main>
 </template>
